@@ -1,0 +1,68 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "24fae8bff03b21bb6c743fa450518a6feb103ce776c27f3808a8b422a3f349f0"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "cotyledon": {
+            "hashes": [
+                "sha256:77dd91f5b1cab19c69e7638ed46aa44c5b035cb3e7ad908a4b8930706acf1df9",
+                "sha256:bc177af70c4cafe9b8d5b06fb91c1b64d79a92a7f22bb89216f0e8719025f1ea"
+            ],
+            "index": "pypi",
+            "version": "==1.7.2"
+        },
+        "futurist": {
+            "hashes": [
+                "sha256:ab5dd5de15c8d6d80fba45ab5455a0c8f68677fd1bd65f84239066a4e8999f6f",
+                "sha256:e02040321392dbfe11da7a17df20fdaaf2e5cb78dcb75eb3ec8ced9a1d632d8c"
+            ],
+            "index": "pypi",
+            "version": "==1.8.0"
+        },
+        "pbr": {
+            "hashes": [
+                "sha256:f59d71442f9ece3dffc17bc36575768e1ee9967756e6b6535f0ee1f0054c3d68",
+                "sha256:f6d5b23f226a2ba58e14e49aa3b1bfaf814d0199144b95d78458212444de1387"
+            ],
+            "version": "==5.1.1"
+        },
+        "prettytable": {
+            "hashes": [
+                "sha256:2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9",
+                "sha256:853c116513625c738dc3ce1aee148b5b5757a86727e67eff6502c7ca59d43c36",
+                "sha256:a53da3b43d7a5c229b5e3ca2892ef982c46b7923b51e98f0db49956531211c4f"
+            ],
+            "version": "==0.7.2"
+        },
+        "setproctitle": {
+            "hashes": [
+                "sha256:6283b7a58477dd8478fbb9e76defb37968ee4ba47b05ec1c053cb39638bd7398",
+                "sha256:6a035eddac62898786aed2c2eee7334c28cfc8106e8eb29fdd117cac56c6cdf0",
+                "sha256:909cfa363c066e65aee7db3df35fea72b89baa61b4dc7c1629d4b0032f834e3e"
+            ],
+            "markers": "sys_platform != 'win32'",
+            "version": "==1.1.10"
+        },
+        "six": {
+            "hashes": [
+                "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9",
+                "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"
+            ],
+            "version": "==1.11.0"
+        }
+    },
+    "develop": {}
+}

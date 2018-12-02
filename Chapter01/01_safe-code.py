@@ -1,5 +1,11 @@
 import threading
 
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# this code shows what the GIL means in python
+# this code is threadsafe cuz of GIL
+#   always print [2, 1]
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 x = []
 
 def append_two(l):

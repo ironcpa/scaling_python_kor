@@ -1,3 +1,7 @@
+# program desc
+#   - this code is just a clip of api codes
+#     - not executable
+#   - to show default worker count
 class ProcessPoolExecutor(_base.Executor):
     def __init__(self, max_workers=None):
         # [...]

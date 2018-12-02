@@ -1,3 +1,7 @@
+# program desc
+#   - blocking socket simulation w/ http delay feature
+#     - send http request to an web server and get response after 5 sec
+#     - show print delayed about 5 sec
 import socket
 
 s = socket.create_connection(("httpbin.org", 80))

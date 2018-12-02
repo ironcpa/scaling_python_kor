@@ -1,3 +1,5 @@
+# program desc
+#   - using futurist package's ThreadPoolExecutor
 import futurist
 from futurist import waiters
 import random

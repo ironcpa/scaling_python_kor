@@ -1,3 +1,8 @@
+# program desc
+#   - same to 03_multithreading-worker
+#   - only diff is using process instead of thread
+# purpose
+#   - to check how faster process is than thread in python
 import random
 import multiprocessing
 

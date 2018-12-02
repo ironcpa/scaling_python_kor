@@ -1,3 +1,8 @@
+# program desc
+#   - show socket's nonblocking is working
+#     - working but this example terminates w/ error
+#       - but error is expected in this example
+#       - error is happened cuz there's no response data yet in socket
 import socket
 
 s = socket.create_connection(("httpbin.org", 80))

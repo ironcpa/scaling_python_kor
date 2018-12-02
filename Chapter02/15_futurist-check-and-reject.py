@@ -1,3 +1,5 @@
+# program desc
+#    - show how to use check_and_reject
 import futurist
 from futurist import rejection
 import random

@@ -1,3 +1,16 @@
+# program desc
+#   - show simple usage of cotyledon service worker
+#     - create 2 simple printer worker as service and run manager
+# cotyledon service
+#   - create master process
+#   - create child worker processes
+#   - below shell cmd show related process structures
+#     $ ps ax | grep 18_cotyledon
+#     25098 pts/21   Sl+    0:00 18_cotyledon.py: master process [18_cotyledon.py]
+#     25101 pts/21   Sl+    0:00 18_cotyledon.py: printer worker(0)
+#     25104 pts/21   Sl+    0:00 18_cotyledon.py: printer worker(1)
+#   - cotyledon can resurrect crashed child processes
+#   - communication btwn processes can be possible using queue -> in next example
 import threading
 import time
 

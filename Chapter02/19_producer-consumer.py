@@ -1,3 +1,10 @@
+# program desc
+#   - cotyledon model w/ producer consumer pattern
+#     - to communicate btwn worker processes
+#       - through queue
+#   - in this example
+#     - 1 producer : put simple incremental int values to queue
+#     - 2 printers : get values from queue and print values
 import multiprocessing
 import time
 

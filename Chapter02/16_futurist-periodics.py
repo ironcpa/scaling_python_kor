@@ -1,3 +1,10 @@
+# program desc
+#   - show basic usage of futurist package's periodic worker
+#   - add 2 kind of workers
+#     - 1: every_one : show elapsed time from started
+#       - every 1 second
+#     - 2: print worker stats
+#       - every 4 second
 import time
 
 from futurist import periodics

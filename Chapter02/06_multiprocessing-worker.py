@@ -1,3 +1,9 @@
+# program desc
+#   - process worker using pool
+# purpose
+#   - show pool's conveniance
+#     - don't have to manually make collect machanism
+#     - economical cuz internal process 'fork' call is reduced by using process pool
 import multiprocessing
 import random
 

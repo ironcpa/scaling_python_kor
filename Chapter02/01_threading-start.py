@@ -1,7 +1,9 @@
 import threading
+import time
 
 
 def print_something(something):
+    time.sleep(1)
     print(something)
 
 
