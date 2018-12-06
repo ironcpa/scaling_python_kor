@@ -1,3 +1,10 @@
+# program desc
+#   - some options for rq
+#     - queue name
+# how to run
+#   - run this script
+#   - run 'rq worker http' in other terminal
+#     - 'rq worker' doesn't work in this case
 import time
 
 from rq import Queue
@@ -12,5 +19,6 @@ job = q.enqueue(requests.get, "http://httpbin.org/delay/1",
 # 결과가 준비될 때까지 대기한다.
 while job.result is None:
     time.sleep(1)
+    print('wait until job done')
 
 print(job.result)

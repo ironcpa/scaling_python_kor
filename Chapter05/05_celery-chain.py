@@ -1,3 +1,7 @@
+# program desc
+#   - show using celery task chain
+# notable api
+#   - task's .s() is shortcut for .signature()
 import celery
 
 app = celery.Celery('05_celery-chain',
